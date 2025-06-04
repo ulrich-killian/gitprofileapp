@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', 'Noto Sans', 'Roboto', 'Ubuntu', sans-serif;
+    margin: 20px;
+    background:grey;
+}
+
+.detail-content {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+h1 {
+    background: rgb(29, 28, 28);
+    border-radius: 5px;
+    border: solid rgb(27, 25, 25);
+    color: rgb(3, 119, 252);
+    font-weight: 800;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+}
+
+#profile{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: 2, 5px;
+    grid-gap: 40px;
+    margin-top: 40px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+.search-container{
+    display: flex;
+}
+
+input, .boss{
+    width: 300px;
+    padding: 200px;
+    background-color: 	#f0f8ff;
+    
+}
+
+ #searchBtn{
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    background-color: rgb(5, 3, 7);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+#username{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+@media screen and (max-width:765px){
+ .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+ }
+h1, i{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 40px;
+ }
+
+}
+
