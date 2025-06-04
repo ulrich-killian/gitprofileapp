@@ -1,3 +1,4 @@
+/* ==========fetch profile on github using it link=============== */
 function fetchUsers(query) {
     const profileDiv = document.getElementById('profile');
     profileDiv.innerHTML = '';
@@ -63,6 +64,6 @@ function fetchUsers(query) {
     const query = document.getElementById('username').value;
     fetchUsers(query);
   });
-  
+  /* =====fetch user input===== */
   fetchUsers('git');
   
