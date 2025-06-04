@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>GitHub Profile Viewer</title>
 </head>
 <body>
-    
+  <div class="container">
+    <div class="detail-content">
+       <i class="fab fa-github"></i>
+       <h1>GitHub Profile</h1>
+    </div>
+    <div class="search-container">
+       <input  class="boss" type="text" id="username" placeholder="Enter GitHub username vaveof">
+       <button id="searchBtn">Search</button>
+  </div>
+</div>
+  <div id="profile"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
